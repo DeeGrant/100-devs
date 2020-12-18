@@ -1,20 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dedf7178-9e82-4f69-984e-ab6f70e50177" name="Default Changelist" comment="" />
+    <list default="true" id="dedf7178-9e82-4f69-984e-ab6f70e50177" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class13-materials/age-checker/css/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class13-materials/age-checker/css/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class13-materials/age-checker/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class13-materials/age-checker/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class13-materials/age-checker/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class13-materials/bring-it-on-again/css/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class13-materials/bring-it-on-again/css/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class13-materials/bring-it-on-again/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class13-materials/bring-it-on-again/img/bring-it-on-again.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class13-materials/bring-it-on-again/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class13-materials/bring-it-on-again/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class13-materials/bring-it-on/css/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class13-materials/bring-it-on/css/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class13-materials/bring-it-on/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class13-materials/bring-it-on/img/bring-it-on.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class13-materials/bring-it-on/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class13-materials/bring-it-on/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class13-materials/simple-functions/css/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class13-materials/simple-functions/css/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class13-materials/simple-functions/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class13-materials/simple-functions/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class13-materials/simple-functions/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class13-materials/sir-savage-the-21st/css/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class13-materials/sir-savage-the-21st/css/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class13-materials/sir-savage-the-21st/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class13-materials/sir-savage-the-21st/img/sir-savage.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class13-materials/sir-savage-the-21st/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class13-materials/sir-savage-the-21st/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class13-materials/stop-snacking/css/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class13-materials/stop-snacking/css/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class13-materials/stop-snacking/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class13-materials/stop-snacking/img/stop-snacking.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class13-materials/stop-snacking/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class13-materials/stop-snacking/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class13-materials/variable-fun-time/css/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class13-materials/variable-fun-time/css/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class13-materials/variable-fun-time/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class13-materials/variable-fun-time/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class13-materials/variable-fun-time/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1l4pxnZxLp8arLGHBXAoVcbqXmg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -26,11 +79,30 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606866468668</updated>
-      <workItem from="1606866470801" duration="300000" />
+      <workItem from="1606866470801" duration="853000" />
+      <workItem from="1608249847798" duration="155000" />
+      <workItem from="1608250023855" duration="8535000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Class 13" />
+    <option name="LAST_COMMIT_MESSAGE" value="Class 13" />
   </component>
 </project>
