@@ -1,70 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dedf7178-9e82-4f69-984e-ab6f70e50177" name="Default Changelist" comment="Class 13 - Homework">
-      <change afterPath="$PROJECT_DIR$/class19-materials/objects-dog-photos/css/normalize.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class19-materials/objects-dog-photos/css/reset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class19-materials/objects-dog-photos/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class19-materials/objects-dog-photos/img/all-or-nothing.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class19-materials/objects-dog-photos/img/bring-it-on-again.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class19-materials/objects-dog-photos/img/fight-to-the-finish.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class19-materials/objects-dog-photos/img/in-it-to-win-it.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class19-materials/objects-dog-photos/img/worldwide-cheersmack.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class19-materials/objects-dog-photos/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class19-materials/objects-dog-photos/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class19-materials/objects-lost-galaxy/css/normalize.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class19-materials/objects-lost-galaxy/css/reset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class19-materials/objects-lost-galaxy/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class19-materials/objects-lost-galaxy/img/lost-galaxy.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class19-materials/objects-lost-galaxy/img/neo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class19-materials/objects-lost-galaxy/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class19-materials/objects-lost-galaxy/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class19-materials/objects-nasa/css/normalize.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class19-materials/objects-nasa/css/reset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class19-materials/objects-nasa/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class19-materials/objects-nasa/img/all-or-nothing.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class19-materials/objects-nasa/img/bring-it-on-again.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class19-materials/objects-nasa/img/fight-to-the-finish.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class19-materials/objects-nasa/img/in-it-to-win-it.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class19-materials/objects-nasa/img/worldwide-cheersmack.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class19-materials/objects-nasa/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class19-materials/objects-nasa/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class19-materials/objects-shots/css/normalize.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class19-materials/objects-shots/css/reset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class19-materials/objects-shots/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class19-materials/objects-shots/img/all-or-nothing.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class19-materials/objects-shots/img/bring-it-on-again.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class19-materials/objects-shots/img/fight-to-the-finish.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class19-materials/objects-shots/img/in-it-to-win-it.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class19-materials/objects-shots/img/worldwide-cheersmack.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class19-materials/objects-shots/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class19-materials/objects-shots/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class19-materials/objects-tony-hawk-pro-skater/css/normalize.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class19-materials/objects-tony-hawk-pro-skater/css/reset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class19-materials/objects-tony-hawk-pro-skater/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class19-materials/objects-tony-hawk-pro-skater/img/all-or-nothing.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class19-materials/objects-tony-hawk-pro-skater/img/bring-it-on-again.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class19-materials/objects-tony-hawk-pro-skater/img/fight-to-the-finish.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class19-materials/objects-tony-hawk-pro-skater/img/in-it-to-win-it.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class19-materials/objects-tony-hawk-pro-skater/img/tony.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class19-materials/objects-tony-hawk-pro-skater/img/worldwide-cheersmack.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class19-materials/objects-tony-hawk-pro-skater/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class19-materials/objects-tony-hawk-pro-skater/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class19-materials/space-review/css/normalize.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class19-materials/space-review/css/reset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class19-materials/space-review/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class19-materials/space-review/img/alien-rangers.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class19-materials/space-review/img/space.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class19-materials/space-review/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class19-materials/space-review/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class19-materials/turbo-review/css/normalize.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class19-materials/turbo-review/css/reset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class19-materials/turbo-review/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class19-materials/turbo-review/img/mighty-morphin.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class19-materials/turbo-review/img/turbo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class19-materials/turbo-review/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class19-materials/turbo-review/js/main.js" afterDir="false" />
+    <list default="true" id="dedf7178-9e82-4f69-984e-ab6f70e50177" name="Default Changelist" comment="Class 19">
+      <change afterPath="$PROJECT_DIR$/class20-materials/objects-dog-photos/css/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class20-materials/objects-dog-photos/css/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class20-materials/objects-dog-photos/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class20-materials/objects-dog-photos/img/all-or-nothing.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class20-materials/objects-dog-photos/img/bring-it-on-again.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class20-materials/objects-dog-photos/img/fight-to-the-finish.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class20-materials/objects-dog-photos/img/in-it-to-win-it.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class20-materials/objects-dog-photos/img/worldwide-cheersmack.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class20-materials/objects-dog-photos/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class20-materials/objects-dog-photos/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class20-materials/objects-lost-galaxy/css/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class20-materials/objects-lost-galaxy/css/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class20-materials/objects-lost-galaxy/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class20-materials/objects-lost-galaxy/img/lost-galaxy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class20-materials/objects-lost-galaxy/img/neo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class20-materials/objects-lost-galaxy/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class20-materials/objects-lost-galaxy/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class20-materials/objects-nasa/css/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class20-materials/objects-nasa/css/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class20-materials/objects-nasa/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class20-materials/objects-nasa/img/all-or-nothing.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class20-materials/objects-nasa/img/bring-it-on-again.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class20-materials/objects-nasa/img/fight-to-the-finish.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class20-materials/objects-nasa/img/in-it-to-win-it.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class20-materials/objects-nasa/img/worldwide-cheersmack.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class20-materials/objects-nasa/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class20-materials/objects-nasa/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class20-materials/objects-shots/css/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class20-materials/objects-shots/css/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class20-materials/objects-shots/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class20-materials/objects-shots/img/all-or-nothing.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class20-materials/objects-shots/img/bring-it-on-again.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class20-materials/objects-shots/img/fight-to-the-finish.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class20-materials/objects-shots/img/in-it-to-win-it.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class20-materials/objects-shots/img/worldwide-cheersmack.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class20-materials/objects-shots/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class20-materials/objects-shots/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class20-materials/objects-tony-hawk-pro-skater/css/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class20-materials/objects-tony-hawk-pro-skater/css/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class20-materials/objects-tony-hawk-pro-skater/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class20-materials/objects-tony-hawk-pro-skater/img/all-or-nothing.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class20-materials/objects-tony-hawk-pro-skater/img/bring-it-on-again.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class20-materials/objects-tony-hawk-pro-skater/img/fight-to-the-finish.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class20-materials/objects-tony-hawk-pro-skater/img/in-it-to-win-it.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class20-materials/objects-tony-hawk-pro-skater/img/tony.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class20-materials/objects-tony-hawk-pro-skater/img/worldwide-cheersmack.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class20-materials/objects-tony-hawk-pro-skater/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class20-materials/objects-tony-hawk-pro-skater/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class20-materials/turbo-review/css/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class20-materials/turbo-review/css/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class20-materials/turbo-review/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class20-materials/turbo-review/img/mighty-morphin.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class20-materials/turbo-review/img/turbo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class20-materials/turbo-review/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class20-materials/turbo-review/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +107,8 @@
       <workItem from="1608249847798" duration="155000" />
       <workItem from="1608250023855" duration="8879000" />
       <workItem from="1608401544389" duration="2291000" />
-      <workItem from="1611709880220" duration="4988000" />
+      <workItem from="1611709880220" duration="5724000" />
+      <workItem from="1611879718526" duration="9154000" />
     </task>
     <task id="LOCAL-00001" summary="Class 13">
       <created>1608260303310</created>
@@ -129,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608402665992</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Class 19">
+      <created>1611715657394</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1611715657394</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,6 +153,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Class 13" />
     <MESSAGE value="Class 13 - Homework" />
-    <option name="LAST_COMMIT_MESSAGE" value="Class 13 - Homework" />
+    <MESSAGE value="Class 19" />
+    <option name="LAST_COMMIT_MESSAGE" value="Class 19" />
   </component>
 </project>
