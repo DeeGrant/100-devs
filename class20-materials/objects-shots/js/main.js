@@ -4,7 +4,7 @@ document.querySelector('button').addEventListener('click', getDrinks)
 
 function getDrinks() {
     let drink = 'margarita'
-    drink = document.querySelector('input').value
+    drink = document.querySelector('input').value.replaceAll(' ', '_')
     console.log(drink)
     let url = `https://www.thecocktaildb.com/api/json/v1/1/search.php?s=${drink}`
     console.log(url)
@@ -24,6 +24,5 @@ function getDrinks() {
 }
 
 // TODO Homework
-// multiple word names
 // miss-spellings
 // push: rotating array of drinks -> automatically runs
