@@ -1,22 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dedf7178-9e82-4f69-984e-ab6f70e50177" name="Default Changelist" comment="Class 20">
-      <change afterPath="$PROJECT_DIR$/class20-materials/api-template/css/normalize.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class20-materials/api-template/css/reset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class20-materials/api-template/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class20-materials/api-template/img/all-or-nothing.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class20-materials/api-template/img/bring-it-on-again.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class20-materials/api-template/img/fight-to-the-finish.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class20-materials/api-template/img/in-it-to-win-it.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class20-materials/api-template/img/worldwide-cheersmack.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class20-materials/api-template/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class20-materials/api-template/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class21-git/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class21-git/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class21-git/js/main.js" afterDir="false" />
+    <list default="true" id="dedf7178-9e82-4f69-984e-ab6f70e50177" name="Default Changelist" comment="Class 20 update and Class 21">
+      <change afterPath="$PROJECT_DIR$/class22-materials/card-game/css/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class22-materials/card-game/css/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class22-materials/card-game/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class22-materials/card-game/img/pokemon.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class22-materials/card-game/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class22-materials/card-game/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class22-materials/local-storage-botScore-button/css/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class22-materials/local-storage-botScore-button/css/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class22-materials/local-storage-botScore-button/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class22-materials/local-storage-botScore-button/img/all-or-nothing.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class22-materials/local-storage-botScore-button/img/bring-it-on-again.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class22-materials/local-storage-botScore-button/img/fight-to-the-finish.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class22-materials/local-storage-botScore-button/img/in-it-to-win-it.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class22-materials/local-storage-botScore-button/img/tony.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class22-materials/local-storage-botScore-button/img/worldwide-cheersmack.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class22-materials/local-storage-botScore-button/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class22-materials/local-storage-botScore-button/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class22-materials/nasa-api/css/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class22-materials/nasa-api/css/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class22-materials/nasa-api/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class22-materials/nasa-api/img/pokemon.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class22-materials/nasa-api/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class22-materials/nasa-api/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class22-materials/objects-netflix-tv-shows/css/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class22-materials/objects-netflix-tv-shows/css/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class22-materials/objects-netflix-tv-shows/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class22-materials/objects-netflix-tv-shows/img/the-circle.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class22-materials/objects-netflix-tv-shows/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class22-materials/objects-netflix-tv-shows/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/class20-materials/objects-shots/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/class20-materials/objects-shots/js/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,10 +63,15 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/class22-materials" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/class22-materials" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -67,7 +87,8 @@
       <workItem from="1608401544389" duration="2291000" />
       <workItem from="1611709880220" duration="5724000" />
       <workItem from="1611879718526" duration="9416000" />
-      <workItem from="1612249516093" duration="1832000" />
+      <workItem from="1612249516093" duration="1920000" />
+      <workItem from="1612482259646" duration="8348000" />
     </task>
     <task id="LOCAL-00001" summary="Class 13">
       <created>1608260303310</created>
@@ -97,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611894554432</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Class 20 update and Class 21">
+      <created>1612324249897</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1612324249897</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,6 +149,7 @@
     <MESSAGE value="Class 13 - Homework" />
     <MESSAGE value="Class 19" />
     <MESSAGE value="Class 20" />
-    <option name="LAST_COMMIT_MESSAGE" value="Class 20" />
+    <MESSAGE value="Class 20 update and Class 21" />
+    <option name="LAST_COMMIT_MESSAGE" value="Class 20 update and Class 21" />
   </component>
 </project>
