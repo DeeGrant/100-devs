@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dedf7178-9e82-4f69-984e-ab6f70e50177" name="Default Changelist" comment="Class 20 update and Class 21">
-      <change afterPath="$PROJECT_DIR$/class22-materials/card-game/css/normalize.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class22-materials/card-game/css/reset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class22-materials/card-game/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class22-materials/card-game/img/pokemon.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class22-materials/card-game/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class22-materials/card-game/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class22-materials/local-storage-botScore-button/css/normalize.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class22-materials/local-storage-botScore-button/css/reset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class22-materials/local-storage-botScore-button/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class22-materials/local-storage-botScore-button/img/all-or-nothing.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class22-materials/local-storage-botScore-button/img/bring-it-on-again.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class22-materials/local-storage-botScore-button/img/fight-to-the-finish.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class22-materials/local-storage-botScore-button/img/in-it-to-win-it.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class22-materials/local-storage-botScore-button/img/tony.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class22-materials/local-storage-botScore-button/img/worldwide-cheersmack.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class22-materials/local-storage-botScore-button/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class22-materials/local-storage-botScore-button/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class22-materials/nasa-api/css/normalize.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class22-materials/nasa-api/css/reset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class22-materials/nasa-api/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class22-materials/nasa-api/img/pokemon.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class22-materials/nasa-api/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class22-materials/nasa-api/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class22-materials/objects-netflix-tv-shows/css/normalize.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class22-materials/objects-netflix-tv-shows/css/reset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class22-materials/objects-netflix-tv-shows/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class22-materials/objects-netflix-tv-shows/img/the-circle.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class22-materials/objects-netflix-tv-shows/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class22-materials/objects-netflix-tv-shows/js/main.js" afterDir="false" />
+    <list default="true" id="dedf7178-9e82-4f69-984e-ab6f70e50177" name="Default Changelist" comment="Class 22">
+      <change afterPath="$PROJECT_DIR$/class23-materials/api-template/css/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class23-materials/api-template/css/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class23-materials/api-template/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class23-materials/api-template/img/pokemon.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class23-materials/api-template/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class23-materials/api-template/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class23-materials/card-game/css/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class23-materials/card-game/css/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class23-materials/card-game/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class23-materials/card-game/img/pokemon.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class23-materials/card-game/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class23-materials/card-game/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class23-materials/dnd/css/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class23-materials/dnd/css/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class23-materials/dnd/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class23-materials/dnd/img/dnd.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class23-materials/dnd/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class23-materials/dnd/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class23-materials/local-storage-botScore-button/css/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class23-materials/local-storage-botScore-button/css/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class23-materials/local-storage-botScore-button/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class23-materials/local-storage-botScore-button/img/all-or-nothing.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class23-materials/local-storage-botScore-button/img/bring-it-on-again.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class23-materials/local-storage-botScore-button/img/fight-to-the-finish.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class23-materials/local-storage-botScore-button/img/in-it-to-win-it.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class23-materials/local-storage-botScore-button/img/tony.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class23-materials/local-storage-botScore-button/img/worldwide-cheersmack.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class23-materials/local-storage-botScore-button/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class23-materials/local-storage-botScore-button/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,6 +73,65 @@
       <recent name="$PROJECT_DIR$/class22-materials" />
     </key>
   </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="https://openlibrary.org/api/books" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="bibkeys" />
+                <option name="value" value="ISBN:0451526538" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="callback" />
+                <option name="value" value="mycallback" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="https://www.dnd5eapi.co/api/spells/acid-arrow/" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="All in rest-api" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/rest-api.http">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.All in rest-api" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -88,7 +147,9 @@
       <workItem from="1611709880220" duration="5724000" />
       <workItem from="1611879718526" duration="9416000" />
       <workItem from="1612249516093" duration="1920000" />
-      <workItem from="1612482259646" duration="8348000" />
+      <workItem from="1612482259646" duration="8528000" />
+      <workItem from="1612558441431" duration="2267000" />
+      <workItem from="1612917811157" duration="6493000" />
     </task>
     <task id="LOCAL-00001" summary="Class 13">
       <created>1608260303310</created>
@@ -125,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612324249897</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Class 22">
+      <created>1612500502191</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1612500502193</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,6 +218,7 @@
     <MESSAGE value="Class 19" />
     <MESSAGE value="Class 20" />
     <MESSAGE value="Class 20 update and Class 21" />
-    <option name="LAST_COMMIT_MESSAGE" value="Class 20 update and Class 21" />
+    <MESSAGE value="Class 22" />
+    <option name="LAST_COMMIT_MESSAGE" value="Class 22" />
   </component>
 </project>
