@@ -1,37 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dedf7178-9e82-4f69-984e-ab6f70e50177" name="Default Changelist" comment="Class 22">
-      <change afterPath="$PROJECT_DIR$/class23-materials/api-template/css/normalize.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class23-materials/api-template/css/reset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class23-materials/api-template/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class23-materials/api-template/img/pokemon.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class23-materials/api-template/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class23-materials/api-template/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class23-materials/card-game/css/normalize.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class23-materials/card-game/css/reset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class23-materials/card-game/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class23-materials/card-game/img/pokemon.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class23-materials/card-game/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class23-materials/card-game/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class23-materials/dnd/css/normalize.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class23-materials/dnd/css/reset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class23-materials/dnd/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class23-materials/dnd/img/dnd.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class23-materials/dnd/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class23-materials/dnd/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class23-materials/local-storage-botScore-button/css/normalize.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class23-materials/local-storage-botScore-button/css/reset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class23-materials/local-storage-botScore-button/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class23-materials/local-storage-botScore-button/img/all-or-nothing.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class23-materials/local-storage-botScore-button/img/bring-it-on-again.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class23-materials/local-storage-botScore-button/img/fight-to-the-finish.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class23-materials/local-storage-botScore-button/img/in-it-to-win-it.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class23-materials/local-storage-botScore-button/img/tony.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class23-materials/local-storage-botScore-button/img/worldwide-cheersmack.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class23-materials/local-storage-botScore-button/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class23-materials/local-storage-botScore-button/js/main.js" afterDir="false" />
+    <list default="true" id="dedf7178-9e82-4f69-984e-ab6f70e50177" name="Default Changelist" comment="Class 23 - messy code">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,7 +121,8 @@
       <workItem from="1612249516093" duration="1920000" />
       <workItem from="1612482259646" duration="8528000" />
       <workItem from="1612558441431" duration="2267000" />
-      <workItem from="1612917811157" duration="6493000" />
+      <workItem from="1612917811157" duration="6574000" />
+      <workItem from="1613076066974" duration="3765000" />
     </task>
     <task id="LOCAL-00001" summary="Class 13">
       <created>1608260303310</created>
@@ -193,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612500502193</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Class 23 - messy code">
+      <created>1612930116057</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1612930116057</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,6 +199,7 @@
     <MESSAGE value="Class 20" />
     <MESSAGE value="Class 20 update and Class 21" />
     <MESSAGE value="Class 22" />
-    <option name="LAST_COMMIT_MESSAGE" value="Class 22" />
+    <MESSAGE value="Class 23 - messy code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Class 23 - messy code" />
   </component>
 </project>
