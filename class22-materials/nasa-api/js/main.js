@@ -1,4 +1,3 @@
-//Example fetch using pokemonapi.co
 document.querySelector('button').addEventListener('click', getFetch)
 
 function getFetch(){
@@ -7,7 +6,6 @@ function getFetch(){
 
     const nasa_api_key = ''
     const url = `https://api.nasa.gov/planetary/apod?api_key=${nasa_api_key}&date=${choice}`
-
 
     fetch(url)
       .then(res => res.json()) // parse response as JSON
@@ -31,18 +29,20 @@ function getFetch(){
 }
 
 function updateImage(data) {
-    // reset()
-    document.querySelector('img').src = data.hdurl
-    document.querySelector('h3').innerText = data.explanation
+    reset()
+    document.querySelector('img').src = data.url
+    document.querySelector('h4').innerText = data.explanation
 }
 function updateVideo(data) {
-    // reset
+    reset()
     document.querySelector('iframe').src = data.url
-    document.querySelector('h3').innerText = data.explanation
+    document.querySelector('h4').innerText = data.explanation
+}
+function reset() {
+    document.querySelector('iframe').src = ''
+    document.querySelector('img').src = ''
+    document.querySelector('h4').innerText = 'Description'
 }
 
 // TODO
-// function for types
-// switch statement
-// titles, labels, etc. in html
-// rename folder
+// Style page
