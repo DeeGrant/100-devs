@@ -1,34 +1,55 @@
-//Example fetch using DnD5eAPI - place subclasses in ul
 document.querySelector('button').addEventListener('click', getFetch)
+document.querySelector('input').addEventListener('keypress', function (e) {
+    if(e.key === 'Enter') {
+        getFetch()
+    }
+})
 
-let subClassesUl = document.querySelector('ul')
+let spellName = document.getElementById('spellName')
+let spellDescription = document.getElementById('spellDescription')
+let spellSchool = document.getElementById('spellSchool')
+let subClassesUl = document.getElementById('subClassesList')
 
 function getFetch(){
-    const userChoice = document.querySelector('input').value
-    let choice = userChoice.split(' ').join('-')
-    const url = `https://www.dnd5eapi.co/api/spells/${choice}`
+    const searchSpell = document.getElementById('searchSpell').value
+        .toLowerCase().split(' ').join('-')
+    const url = `https://www.dnd5eapi.co/api/spells/${searchSpell}`
 
     fetch(url)
         .then(res => res.json()) // parse response as JSON
         .then(data => {
-            console.log(data)
-            let classes = data.classes
-            let subClasses = data.subclasses
-
-            removeAllChildNodes(subClassesUl)
-            // list.innerHTML = '' // doesn't remove child event handlers. Might lead to memory leaks
-            subClasses.forEach(sc => {
-                // class solution
-                const li = document.createElement('li')
-                li.textContent = sc.name
-                subClassesUl.appendChild(li)
-                // my inital solution
-                // subClassesUl.innerHTML += `<li>${sc.name}</li>`
-            })
+            if (data.error === 'Not found') {
+                spellNotFound()
+            } else {
+                populateSpellResults(data)
+            }
         })
         .catch(err => {
             console.log(`error ${err}`)
+            alert('An error occurred.')
         });
+}
+
+function spellNotFound() {
+    populateSpellResults({
+        name: 'Spell Not Found',
+        desc: ['Pleas try a different spell name.'],
+        school: {name: ''},
+        subclasses: []
+    })
+}
+
+function populateSpellResults(data) {
+    spellName.innerText = data.name
+    spellDescription.innerText = data.desc[0]
+    spellSchool.innerText = data.school.name
+
+    removeAllChildNodes(subClassesUl)
+    data.subclasses.forEach(sc => {
+        const li = document.createElement('li')
+        li.textContent = sc.name
+        subClassesUl.appendChild(li)
+    })
 }
 
 function removeAllChildNodes(parent) {
@@ -36,5 +57,3 @@ function removeAllChildNodes(parent) {
         parent.removeChild(parent.firstChild)
     }
 }
-
-// TODO clean up

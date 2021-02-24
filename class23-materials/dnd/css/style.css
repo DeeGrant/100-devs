@@ -10,14 +10,27 @@
 /******************************************
 /* LAYOUT
 /*******************************************/
-img{
-  display: block;
-  margin: 0 auto;
-  height: 50%;
-  width: 50%;
+body {
+  color: #496fb3;
+  font-family: Verdana, sans-serif;
+  margin: 30px;
 }
 
+ul {
+  text-align: center;
+  list-style: inside;
+}
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+#content {
+  background-color: aliceblue;
+  border: solid aliceblue;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+#title, #searchDiv, #spellName, #spellDescription, #spellSchool, #subClasses {
+  text-align: center;
+}
