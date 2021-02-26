@@ -1,0 +1,60 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body {
+  align-content: center;
+  background-color: cornflowerblue;
+  color: #22314c;
+  display: block;
+  font: 1.5em bold Arial, sans-serif;
+}
+
+h1 {
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 0.5em;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+#space0, #space1, #space2, #space3, #space4, #space5, #space6, #space7, #space8 {
+  align-items: center;
+  background: cornflowerblue;
+  display: flex;
+  height: 60px;
+  justify-content: center;
+  width: 60px;
+}
+
+#space1, #space7 {
+  border-left: 5px solid #38517c;
+  border-right: 5px solid #38517c;
+}
+
+#space3, #space5 {
+  border-top: 5px solid #38517c;
+  border-bottom: 5px solid #38517c;
+}
+
+#space4 {
+  border: 5px solid #38517c;
+}
+
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
