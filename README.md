@@ -24,16 +24,14 @@ Start following along in the #following-along-materials channel
 * Portfolio
 
 ##### API
-* Simple
 * Push
     * CocktailDB
     * Slot Machine
-    * DnD
 
 ##### JavaScript
-* CodeWars
+* CodeWars - Daily
 * Codecademy - Intro to JS
-* Simple LocalStorage projcet
+* Simple LocalStorage project
 * Book Tracker
 
 ##### Algorithms
@@ -45,3 +43,4 @@ Start following along in the #following-along-materials channel
 * Update Resume - [Resume Review (Twitch)](https://www.twitch.tv/videos/893268880)
 
 ### What I've completed
+* [DnD Spell Searcher](https://dnd-5e-spell-search.netlify.app) - Class 23
