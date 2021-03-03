@@ -43,4 +43,4 @@ Start following along in the #following-along-materials channel
 * Update Resume - [Resume Review (Twitch)](https://www.twitch.tv/videos/893268880)
 
 ### What I've completed
-* [DnD Spell Searcher](https://dnd-5e-spell-search.netlify.app) - Class 23
+* [DnD Spell Searcher](https://dnd-5e-spell-search.netlify.app) - Class 23 - [commit](class23-materials/dnd)
