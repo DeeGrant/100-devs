@@ -1,10 +1,57 @@
+class Space {
+    get dom() {
+        return this._dom;
+    }
+    set dom(value) {
+        this._dom = value;
+    }
+    get id() {
+        return this._id;
+    }
+    get val() {
+        return this._val;
+    }
+    set val(value) {
+        // check that value not empty string
+        this._val = value;
+        this._dom.innerText = value
+    }
+
+    constructor(dom, id, val) {
+        this._dom = dom;
+        this._id = id;
+        this._val = val;
+    }
+    addClickEvent() {
+        this._dom.addEventListener('click', () => clickSpace(this._id)) // still need 'isXsTurn' ...
+    }
+}
+
+// make real class
+class Board {
+    constructor() {
+
+    }
+}
+
 let board = {
-    // space0:'', space1:'', space2:'', ... ?
-    // spaces: ['', '', '', '', '', '', '', '', ''],
-    isXsTurn: true,
+    initBoard() {
+        for (let i = 0; i < 9; i++) {
+            let id = 'space' + i
+            this[id] = document.getElementById(id)
+            this[id].addEventListener('click', (e) => {
+                let id = e.currentTarget.id
+                console.log(id)
+                let xo = this.XorO()
+                console.log(xo)
+                this[id].innerText = xo
+            })
+        }
+    },
+    _isXsTurn: true,
     XorO() {
-        let ret = this.isXsTurn ? 'X' : 'O'
-        this.isXsTurn = !this.isXsTurn
+        let ret = this._isXsTurn ? 'X' : 'O'
+        this._isXsTurn = !this._isXsTurn
         this.nextTurn()
         return ret
     },
@@ -23,10 +70,6 @@ let board = {
         [0,4,8],
         [2,4,6],
     ],
-
-    populateDomBoard() {
-
-    },
     isGameFinished() {
         // calculate if there is win or draw
 
@@ -35,56 +78,14 @@ let board = {
         // output message
     }
 }
-// win condition object?
-// let win = {win: [[0,1,2],[3,4,5],...]}
 
 // start function
 function initPage() {
-    // initialize the needed stuff
-    for (let i = 0; i < 9; i++) {
-        let id = 'space' + i
-        // event listener
-        // document.getElementById(id).addEventListener('click', clickSpace())
-        board[id] = document.getElementById(id)
-        board[id].addEventListener('click', clickSpace)
-    }
-
+    board.initBoard()
     console.log(board)
-
-    board['space0'].innerText = 'X'
-    board['space1'].innerText = 'O'
-
-    // document.addEventListener('click', clickSpace)
 
 }
 // separate init game function? (eventually...)
 
 initPage()
 
-function clickSpace() {
-    console.log(board.XorO())
-    // console.log(obj)
-}
-
-function generateBoard() {
-    
-}
-
-function populateDomBoard(board) {
-    
-}
-
-// TODO
-// convert object ot JSON
-// load and save to localStorage
-// restart game button
-//
-// Game series
-// keep a running track of the score?
-//
-// Create a tic-tac-toe bot?
-// difficulty levels?
-
-
-// HTML & CSS
-// Have entire game scale with browser size (all relative sizing)
