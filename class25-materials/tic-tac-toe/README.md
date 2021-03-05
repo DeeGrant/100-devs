@@ -2,18 +2,15 @@
 
 [Play Here](https://tic-tac-toe-heuristic-borg-d268a2.netlify.app)
 
-### **** In Progress ****
 
 ### Notes & Ideas
 
 #### TODO
-* new game button
 
 #### Push Goals
 * Have entire game scale with browser size (all relative sizing)
 * Maintain game progress?
-  * load and save to localStorage
-  * convert object ot JSON
+  * load and save to localStorage?
 
 ### Super Push Goals  
 * Game series

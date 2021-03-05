@@ -1,6 +1,3 @@
-// TODO clean up
-// TODO add 'New Game' button
-
 class Board {
     constructor() {
         this._gameContinues = true
@@ -17,20 +14,19 @@ class Board {
             [2,4,6],
         ]
 
-        // TODO move out of constructor
-        // initialize spaces
+        this._initSpaces()
+    }
+
+    _initSpaces() {
         for (let i = 0; i < 9; i++) {
             let id = 'space' + i
             this[id] = document.getElementById(id)
             this[id].addEventListener('click', (e) => {
                 // the gameplay
                 let id = e.currentTarget.id
-
                 if (this[id].innerText === '' && this._gameContinues) {
-                    console.log(id)
-                    this[id].innerText = this.XorO()
-
-                    this.nextTurn()
+                    this[id].innerText = this._XorO()
+                    this._nextTurn()
                 } else if (this._gameContinues) {
                     alert('That space is already taken. Choose a different space.')
                 }
@@ -38,34 +34,47 @@ class Board {
         }
     }
 
-    XorO() {
-        let ret = this._isXsTurn ? 'X' : 'O'
-        console.log(ret)
-        return ret
+    startGame() {
+        this._resetBoard()
     }
 
-    nextTurn() {
-        this.checkForWinner()
+    _resetBoard() {
+        document.querySelector('h2').innerText = ''
+        for (let i = 0; i < 9; i++) {
+            let id = 'space' + i
+            this[id].innerText = ''
+        }
+
+        this._gameContinues = true
+        this._isXsTurn = true
+        this._turn = 1
+    }
+
+    _XorO() {
+        return this._isXsTurn ? 'X' : 'O'
+    }
+
+    _nextTurn() {
+        this._checkForWinner()
         if (this._gameContinues) {
             this._isXsTurn = !this._isXsTurn
             this._turn = this._turn + 1
-            console.log(this._turn)
         }
     }
 
-    checkForWinner() {
+    _checkForWinner() {
         if (this._gameContinues && this._turn > 4) {
-            if (this.calculateWinner()) {
-                document.querySelector('h2').innerText = `${this.XorO()} won!`
-                this.endGame()
+            if (this._winnerExists()) {
+                document.querySelector('h2').innerText = `${this._XorO()} won!`
+                this._endGame()
             } else if (this._turn === 9) {
                 document.querySelector('h2').innerText = `It's a tie!`
-                this.endGame()
+                this._endGame()
             }
         }
     }
 
-    calculateWinner() {
+    _winnerExists() {
         return this._winConditions.some(winArr => {
             const one = this[`space${winArr[0]}`].innerText
             const two = this[`space${winArr[1]}`].innerText
@@ -74,14 +83,15 @@ class Board {
         })
     }
 
-    endGame(){
+    _endGame(){
         this._gameContinues = false
     }
 }
 
 function initPage() {
     let board = new Board()
-    console.log(board)
+    board.startGame()
+    document.querySelector('button').addEventListener('click', board.startGame.bind(board))
 }
 
 initPage()

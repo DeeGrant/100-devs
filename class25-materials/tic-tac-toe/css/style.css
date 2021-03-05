@@ -21,7 +21,7 @@ body {
 h1 {
   font-size: 2em;
   text-align: center;
-  margin-bottom: 0.5em;
+  margin: 0.25em 0;
 }
 
 h2 {
@@ -30,9 +30,22 @@ h2 {
   margin-top: 0.5em;
 }
 
+button {
+  background-color: #b6cadb;
+  border-radius: 8px;
+  color: #22314c;
+  font-size: 1em;
+}
+
 .row {
   display: flex;
   justify-content: center;
+}
+
+#menu {
+  display: flex;
+  justify-content: center;
+  margin: 0.5em 0;
 }
 
 #space0, #space1, #space2, #space3, #space4, #space5, #space6, #space7, #space8 {
