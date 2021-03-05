@@ -4,18 +4,19 @@
 
 ### Notes & Ideas
 
-TODO
-* restart game button
-* maintain game progress?
-    * load and save to localStorage 
-    * convert object ot JSON
+#### TODO
+* new game button
 
-Game series \
-keep a running track of the score?
+#### Push Goals
+* Have entire game scale with browser size (all relative sizing)
+* Maintain game progress?
+  * load and save to localStorage
+  * convert object ot JSON
 
-Create a tic-tac-toe bot?
-* difficulty levels?
-
-
-HTML & CSS \
-Have entire game scale with browser size (all relative sizing)
+### Super Push Goals  
+* Game series
+  * keep a running track of the score?
+  
+#### Future Dev
+* Create a tic-tac-toe bot?
+*   difficulty levels?

@@ -1,4 +1,5 @@
 // TODO clean up
+// TODO add 'New Game' button
 
 class Board {
     constructor() {
@@ -16,6 +17,7 @@ class Board {
             [2,4,6],
         ]
 
+        // TODO move out of constructor
         // initialize spaces
         for (let i = 0; i < 9; i++) {
             let id = 'space' + i
@@ -24,12 +26,12 @@ class Board {
                 // the gameplay
                 let id = e.currentTarget.id
 
-                if (this[id].innerText === '') {
+                if (this[id].innerText === '' && this._gameContinues) {
                     console.log(id)
                     this[id].innerText = this.XorO()
 
                     this.nextTurn()
-                } else {
+                } else if (this._gameContinues) {
                     alert('That space is already taken. Choose a different space.')
                 }
             })
@@ -52,21 +54,15 @@ class Board {
     }
 
     checkForWinner() {
-        // add game finished/live boolean?
-
-        // calculate if there is win or draw
-        if (this._gameContinues && this._turn > 4) { // check
-            // alert('checking!')
-            let win = this.calculateWinner()
-
-            document.querySelector('h2').innerText = `Checking! ${win}`
+        if (this._gameContinues && this._turn > 4) {
+            if (this.calculateWinner()) {
+                document.querySelector('h2').innerText = `${this.XorO()} won!`
+                this.endGame()
+            } else if (this._turn === 9) {
+                document.querySelector('h2').innerText = `It's a tie!`
+                this.endGame()
+            }
         }
-
-
-        // search win arrays for index of space just placed
-        //
-        // output message
-
     }
 
     calculateWinner() {
@@ -78,8 +74,7 @@ class Board {
         })
     }
 
-    endOfGame(){
-
+    endGame(){
         this._gameContinues = false
     }
 }
