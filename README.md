@@ -5,9 +5,10 @@ Projects and homework from [Leon Noel's bootcamp](https://leonnoel.com/100devs/)
 ### What I've completed
 * Nasa API - [commit](class22-materials/nasa-api)
 * [DnD Spell Searcher](https://dnd-5e-spell-search.netlify.app) - [commit](class23-materials/dnd)
+* 
 
 ### In Progress
-* Tic Tac Toe - [commit](class25-materials/tic-tac-toe)
+* [Tic Tac Toe](https://tic-tac-toe-heuristic-borg-d268a2.netlify.app) - [commit](class25-materials/tic-tac-toe)
 
 ### Catch up
 

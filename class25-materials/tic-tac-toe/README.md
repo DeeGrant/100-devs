@@ -1,5 +1,7 @@
 # Tic Tac Toe
 
+[Play Here](https://tic-tac-toe-heuristic-borg-d268a2.netlify.app)
+
 ### **** In Progress ****
 
 ### Notes & Ideas
