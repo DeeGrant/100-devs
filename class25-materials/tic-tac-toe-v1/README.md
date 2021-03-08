@@ -1,7 +1,7 @@
 # Tic Tac Toe
 
-[Play Here](https://tic-tac-toe-heuristic-borg-d268a2.netlify.app)
-
+[Play Here](https://tic-tac-toe-heuristic-borg-d268a2.netlify.app) \
+[Cleaner Code Solution - in progress](../tic-tac-toe-v2)
 
 ### Notes & Ideas
 
