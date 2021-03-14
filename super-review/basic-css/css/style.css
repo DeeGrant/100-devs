@@ -1,0 +1,32 @@
+h1 {
+    color: blue;
+    text-decoration: underline;
+    background: gold;
+}
+
+h2 {
+    color: purple;
+    font-weight: bold;
+    font-size: 25px;
+    border: solid orange;
+}
+
+section {
+    width: 50%;
+    height: 200px;
+    background: gray;
+    border: solid black;
+}
+section p {
+    color: white;
+}
+
+/*TODO finish*/
+footer {
+    background: black;
+    border: solid lightgreen;
+    color: white;
+    font-size: 20px;
+    /*TODO add google font link*/
+    font-family: Roboto;
+}

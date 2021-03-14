@@ -1,0 +1,25 @@
+/* all h2 Red*/
+/*
+h2 {
+    color: red;
+}
+ */
+
+/* just World and Zebra */
+/*
+section > h2 {
+    color: red;
+}
+ */
+
+/* Unicorn and Duck */
+/*
+article h2 {
+    color: red;
+}
+ */
+
+/* Just Unicorn */
+section article h2 {
+    color: red;
+}
