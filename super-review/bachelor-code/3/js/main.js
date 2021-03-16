@@ -9,3 +9,5 @@ function checkForRose(click){
 		alert("Wrong!");
 	}
 }
+
+// TODO dom manipulation

@@ -23,3 +23,5 @@ function sharleenNext(){
 	/*INSERTCODE*/.classList.add(/*INSERTCODE*/)
 	/*INSERTCODE*/.classList.toggle(/*INSERTCODE*/)
 }
+
+// TODO dom manipulation
