@@ -1,78 +1,79 @@
-const http = require('http');
+const http = require('http')
 const fs = require('fs')
-const url = require('url');
-const querystring = require('querystring');
+const url = require('url')
+const querystring = require('querystring')
 const figlet = require('figlet')
 
-const server = http.createServer((req, res) => {
-  const page = url.parse(req.url).pathname;
-  const params = querystring.parse(url.parse(req.url).query);
-  console.log(page);
-  if (page == '/') {
-    fs.readFile('index.html', function(err, data) {
-      res.writeHead(200, {'Content-Type': 'text/html'});
-      res.write(data);
-      res.end();
-    });
-  }
-  else if (page == '/otherpage') {
-    fs.readFile('otherpage.html', function(err, data) {
-      res.writeHead(200, {'Content-Type': 'text/html'});
-      res.write(data);
-      res.end();
-    });
-  }
-  else if (page == '/otherotherpage') {
-    fs.readFile('otherotherpage.html', function(err, data) {
-      res.writeHead(200, {'Content-Type': 'text/html'});
-      res.write(data);
-      res.end();
-    });
-  }
-  else if (page == '/api') {
-    if('student' in params){
-      if(params['student']== 'leon'){
-        res.writeHead(200, {'Content-Type': 'application/json'});
-        const objToJson = {
-          name: "leon",
-          status: "Boss Man",
-          currentOccupation: "Baller"
-        }
-        res.end(JSON.stringify(objToJson));
-      }//student = leon
-      else if(params['student'] != 'leon'){
-        res.writeHead(200, {'Content-Type': 'application/json'});
-        const objToJson = {
-          name: "unknown",
-          status: "unknown",
-          currentOccupation: "unknown"
-        }
-        res.end(JSON.stringify(objToJson));
-      }//student != leon
-    }//student if
-  }//else if
-  else if (page == '/css/style.css'){
-    fs.readFile('css/style.css', function(err, data) {
-      res.write(data);
-      res.end();
-    });
-  }else if (page == '/js/main.js'){
-    fs.readFile('js/main.js', function(err, data) {
-      res.writeHead(200, {'Content-Type': 'text/javascript'});
-      res.write(data);
-      res.end();
-    });
-  }else{
-    figlet('404!!', function(err, data) {
-      if (err) {
-          console.log('Something went wrong...');
-          console.dir(err);
-          return;
-      }
-      res.write(data);
-      res.end();
-    });
-  }
-});
+function getStudentResponseObj(student) {
+    return student === 'leon' ?
+    {
+        name: "leon",
+        status: "Boss Man",
+        currentOccupation: "Baller"
+    }
+        :
+    {
+        name: "unknown",
+        status: "unknown",
+        currentOccupation: "unknown"
+    }
+}
 
-server.listen(8000);
+const server = http.createServer((req, res) => {
+    // constants
+    const curl = url.parse(req.url)
+    const route = curl.pathname
+    const params = querystring.parse(curl.query)
+    console.log(route)
+
+    // functions
+    function responseCallBack(fileType) {
+        return (err, data) => {
+            if (err) {
+                console.log('Something went wrong...')
+                console.dir(err)
+                return
+            } else {
+                res.writeHead(200, {'Content-Type': 'text/' + fileType})
+            }
+            res.write(data)
+            res.end();
+        }
+    }
+    function fileSystemResponse(fileRoute) {
+        let fileType = fileRoute.split('.').reverse()[0]
+        fileType = fileType === 'js' ? 'javascript' : fileType
+
+        fs.readFile(fileRoute, responseCallBack(fileType))
+    }
+    function apiResponse(responseObj) {
+        res.writeHead(200, {'Content-Type': 'application/json'})
+        res.end(JSON.stringify(responseObj))
+    }
+
+    // logic
+    switch (route) {
+        case '/':
+            fileSystemResponse('index.html')
+            break
+        case '/otherpage':
+        case '/otherotherpage':
+        case '/css/style.css':
+        case '/js/main.js':
+            let filePath = route.substring(1)
+            filePath = filePath.includes('.') ? filePath : (filePath + '.html')
+            fileSystemResponse(filePath)
+            break
+        case '/api':
+            if ('student' in params) {
+                let studentObj = getStudentResponseObj(params['student'])
+                apiResponse(studentObj)
+            }
+            break
+        default:
+            figlet('404!!', responseCallBack('error'))
+            break
+    }
+})
+
+server.listen(8000)
