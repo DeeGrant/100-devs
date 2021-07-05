@@ -1,5 +1,6 @@
 # Tic Tac Toe
 
+![tic tac toe](references/tic-tac-toe-screen-shot.png)
 [Play Here](https://tic-tac-toe-heuristic-borg-d268a2.netlify.app) \
 [Cleaner Code Solution - in progress](../tic-tac-toe-v2)
 
