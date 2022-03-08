@@ -1,0 +1,24 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+header, footer {
+    background-color: #496fb3;
+    border: 3px solid gray;
+    height: 150px;
+}
+
+section {
+    background-color: #b6cadb;
+    height: 300px;
+    display: inline-block;
+    width: 32.8%;
+}
+
+section + section {
+    background-color: antiquewhite;
+}
+
+section + section + section {
+    background-color: aliceblue;
+}

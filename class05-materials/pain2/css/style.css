@@ -1,0 +1,28 @@
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+header, footer {
+    background-color: #22314c;
+    border: 3px solid #496fb3;
+    clear: both;
+    height: 100px;
+}
+
+section {
+    background-color: gray;
+    border: 3px solid olivedrab;
+    float: left;
+    height: 300px;
+    width: 33.3333%;
+}
+
+section + section {
+    background-color: darkslategrey;
+}
+
+section + section + section {
+    background-color: darkgray;
+}
