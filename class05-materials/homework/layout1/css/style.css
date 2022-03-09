@@ -1,0 +1,39 @@
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+header, footer {
+    background-color: lavender;
+    border: 2px solid lightgray;
+    clear: both;
+    height: 100px;
+}
+
+section.top > section {
+    background-color: antiquewhite;
+    border: 2px solid lightgray;
+    border-top: 0;
+    border-bottom: 0;
+    float: left;
+    height: 150px;
+    width: 33.3333%;
+}
+
+section.top > section + section {
+    border-left: 0;
+}
+
+section.bottom > section {
+    background-color: blanchedalmond;
+    border: 2px solid lightgray;
+    border-bottom: 0;
+    float: left;
+    height: 200px;
+    width: 50%;
+}
+
+section.bottom > section + section {
+    border-left: 0;
+}
