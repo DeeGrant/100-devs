@@ -1,0 +1,30 @@
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+header, footer {
+    background-color: cadetblue;
+    border: 2px solid slategray;
+    clear: both;
+    height: 100px;
+}
+
+main > * {
+    background-color: darkseagreen;
+    border-right: 2px solid slategray;
+    float: left;
+    height: 400px;
+    width: 20%;
+}
+
+nav {
+    border-left: 2px solid slategray;
+}
+
+main > main {
+    width: 40%;
+}
+
+
