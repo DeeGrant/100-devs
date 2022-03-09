@@ -17,10 +17,13 @@ section {
     float: left;
     height: 300px;
     width: 33.3333%;
+    border-top: 0;
+    border-bottom: 0;
 }
 
 section + section {
     background-color: darkslategrey;
+    border-left: 0;
 }
 
 section + section + section {
