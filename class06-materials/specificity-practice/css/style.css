@@ -1,7 +1,30 @@
-/* Please make "This is an ad..." blue, but make sure it is specific enough that you could add other h3's somewhere eles in the document. */
+/* Please make "This is an ad..." blue, but make sure it is specific enough that you could add other h3's somewhere else in the document. */
+aside.extraExtraReadAllAboutIt h3 {
+    color: blue;
+}
 
 /* Please make "I like turtles." red */
+section#chunkyMilk h2 {
+    color: red;
+}
 
 /* Please select "Hello, world!" with the highest level of specificity possible*/
+html head + body header.top + section#rugratsWildThornberrysBestCrossOverAllTime h2 {
+    color: #b6cadb !important;
+}
 
 /* Please select "Let's get down to business..." with the highest level of specificity possible */
+html head + body header.top + section#rugratsWildThornberrysBestCrossOverAllTime + section#chunkyMilk h2 + p.passTheRemote.turtles {
+    color: purple !important;
+}
+
+
+
+/* Check Specificity */
+h3 {
+    color: green;
+}
+
+h2 {
+    color: green;
+}
