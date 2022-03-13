@@ -1,6 +1,6 @@
 /* Box Model Hack */
 * {
-     -moz-box-sizing: border-box;
+     box-sizing: border-box;
 }
 
 /* Clear fix hack */
