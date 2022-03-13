@@ -27,22 +27,18 @@
 /* LAYOUT
 /*******************************************/
 header, footer {
-     border: 2px solid gray;
-     clear: both;
      height: 100px;
+     border: 1px solid black;
+}
+
+main, .bottom {
+     display: flex;
 }
 
 section {
-     border: 2px solid gray;
-     border-top: 0;
-     height: 150px;
-     float: left;
-     width: 33.3333%;
-}
-
-.bottom {
-     border-bottom: 0;
-     width: 50%;
+     height: 200px;
+     flex: 1;
+     border: 1px solid black;
 }
 
 /******************************************

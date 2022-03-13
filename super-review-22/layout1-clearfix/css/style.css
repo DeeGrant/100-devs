@@ -32,16 +32,21 @@ header, footer {
      height: 100px;
 }
 
+main {
+     border: 1px solid crimson;
+}
+
 section {
      border: 2px solid gray;
      border-top: 0;
      height: 150px;
      float: left;
-     width: 33.3333%;
 }
 
-.bottom {
-     border-bottom: 0;
+main > section {
+     width: 33.3333%;
+}
+section > section {
      width: 50%;
 }
 
