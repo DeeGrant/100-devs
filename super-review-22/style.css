@@ -1,0 +1,31 @@
+body {
+    color: darkslategrey;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+header, footer {
+    text-align: center;
+}
+
+header > span {
+    display: block;
+}
+
+aside {
+    float: right;
+    margin: 40px;
+}
+
+main {
+    margin: 40px;
+}
+
+h1 {
+    color: red;
+}
+
+img {
+    width: 200px;
+    height: auto;
+}
+
