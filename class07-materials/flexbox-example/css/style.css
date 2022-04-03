@@ -29,8 +29,18 @@ body {
 /******************************************
 /* LAYOUT
 /*******************************************/
-
-
+header, footer {
+     background: linear-gradient(155deg, #ccc, #777);
+     height: 100px;
+}
+section {
+     background: radial-gradient(#afe3b8, #699fa4);
+     flex: 1;
+     height: 200px;
+}
+main, .bottom {
+     display: flex;
+}
 
 /******************************************
 /* ADDITIONAL STYLES
