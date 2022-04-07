@@ -44,3 +44,16 @@ main > section {
 img {
      width: 75%;
 }
+span {
+     position: relative;
+}
+span:after {
+     background-color: #afe3b8;
+     bottom: 0;
+     content: '';
+     left: -.1em;
+     position: absolute;
+     right: -.1em;
+     top: 60%;
+     z-index: -1;
+}
