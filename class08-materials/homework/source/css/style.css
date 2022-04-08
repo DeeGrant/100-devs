@@ -47,7 +47,7 @@ nav > ul {
 nav > ul > li {
      width: 25%;
 }
-nav > .btn {
+nav > div {
      text-align: right;
      width: 20%;
 }
@@ -71,7 +71,7 @@ body > section > h2 {
 body > section > p {
      width: 50%;
 }
-div {
+body > section > div {
      background: #666;
      height: 300px;
 }
@@ -93,7 +93,25 @@ div {
 header, main {
      background: #f5f9fb;
 }
+h1 {
+     font-size: 2.25rem;
+}
 .features i {
      font-size: 2rem;
 }
-
+/* ------ Form ------ */
+form > input {
+     background: #e3e9f0;
+     border-style: none;
+     padding: .6rem 0 .6rem 1rem;
+}
+#something {
+     width: calc(100% - 7rem);
+}
+/* ------ Buttons ------ */
+.btn {
+     background: #3c4f62;
+     color: #f5f9fb;
+     cursor: pointer;
+     padding: .6rem 1.5rem;
+}
