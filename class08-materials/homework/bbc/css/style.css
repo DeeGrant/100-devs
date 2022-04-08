@@ -1,9 +1,9 @@
-/* Box Model Hack */
+/* ------ Box Model ------ */
 * {
-  box-sizing: border-box;
+     box-sizing: border-box;
 }
 
-/* Clear fix hack */
+/* ------ Clearfix ------ */
 .clearfix:after {
      content: ".";
      display: block;
@@ -14,29 +14,43 @@
 }
 
 .clear {
-	clear: both;
+     clear: both;
 }
 
-/******************************************
-/* BASE STYLES
-/*******************************************/
-
-body {
-
+/* ------ Base Styles ------ */
+li {
+     list-style: none;
 }
 
-
-/******************************************
-/* LAYOUT
-/*******************************************/
+/* ------ Layout ------ */
+nav > * {
+     float: left;
+     width: 10%;
+}
+nav ul {
+     width: 60%;
+}
+nav ul li {
+     float: left;
+     margin: 0 10px;
+}
+main > section {
+     float: left;
+     width: 50%;
+}
+main > section + section > section {
+     float: left;
+     width: 50%;
+}
+.news > section > article {
+     float: left;
+     width: 33.3333%;
+}
+/* ------ additional styles ------ */
 header {
-
+     background: black;
+     color: white;
 }
-
-footer {
-
+a {
+     color: white;
 }
-
-/******************************************
-/* ADDITIONAL STYLES
-/*******************************************/
