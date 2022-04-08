@@ -1,0 +1,117 @@
+/* ------ Box Model ------ */
+* {
+     box-sizing: border-box;
+}
+
+/* ------ Clearfix ------ */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+     clear: both;
+}
+
+/* ------ Base Styles ------ */
+html {
+     color: #555555;
+     font-family: Rubik, Arial, sans-serif;
+}
+li {
+     list-style: none;
+}
+a {
+     color: #555555;
+     text-decoration: none;
+}
+
+/* ------ Layout ------ */
+header {
+     padding: 2%;
+}
+nav > *, nav ul li {
+     float: left;
+     margin: 0;
+}
+nav > h3 {
+     width: 30%;
+}
+nav > ul {
+     width: 50%;
+}
+nav > ul > li {
+     width: 25%;
+}
+nav > div {
+     text-align: right;
+     width: 20%;
+}
+main > section > section {
+     float: left;
+     padding-bottom: 3vw;
+}
+main > section, body > section {
+     margin: 0 8%;
+}
+.hero {
+     margin-right: 0;
+}
+.hero > section + section {
+     text-align: right;
+}
+body > section > h2 {
+     font-size: 3rem;
+     width: 50%;
+}
+body > section > p {
+     width: 50%;
+}
+body > section > div {
+     background: #666;
+     height: 300px;
+}
+.hero > section {
+     width: 50%;
+}
+.hero > section:first-child {
+     padding: 6vw 20% 5vw 0;
+}
+.hero > section:first-child span {
+     text-transform: uppercase;
+}
+.features > section {
+     padding-right: 4%;
+     width: 25%;
+}
+
+/* ------ additional styles ------ */
+header, main {
+     background: #f5f9fb;
+}
+h1 {
+     font-size: 2.25rem;
+}
+.features i {
+     font-size: 2rem;
+}
+/* ------ Form ------ */
+form > input {
+     background: #e3e9f0;
+     border-style: none;
+     padding: .6rem 0 .6rem 1rem;
+}
+#something {
+     width: calc(100% - 7rem);
+}
+/* ------ Buttons ------ */
+.btn {
+     background: #3c4f62;
+     color: #f5f9fb;
+     cursor: pointer;
+     padding: .6rem 1.5rem;
+}
