@@ -1,9 +1,9 @@
-/* Box Model Hack */
+/* ------ Box Model ------ */
 * {
-  box-sizing: border-box;
+     box-sizing: border-box;
 }
 
-/* Clear fix hack */
+/* ------ Clearfix ------ */
 .clearfix:after {
      content: ".";
      display: block;
@@ -14,29 +14,79 @@
 }
 
 .clear {
-	clear: both;
+     clear: both;
 }
 
-/******************************************
-/* BASE STYLES
-/*******************************************/
-
-body {
-
+/* ------ Base Styles ------ */
+html {
+     font-family: "Roboto Condensed", Arial, sans-serif;
+     text-align: center;
+}
+li {
+     list-style: none;
 }
 
+/* ------ Layout ------ */
+nav > * {
+     float: left;
+}
+nav a {
+     width: 8%;
+}
+nav img {
+     width: 70%;
+}
+p {
+     margin: 0 auto;
+     width: 50%;
+}
+header + section + section > section {
+     float: left;
+     width: 50%;
+}
+footer > section > section {
+     float: left;
+     width: 25%;
+}
+footer > section > section + section {
+     float: right;
+}
+.lower > section {
+     float: left;
+     width: 60%;
+}
+.lower > section + section {
+     float: right;
+     text-align: right;
+     width: 40%;
+}
 
-/******************************************
-/* LAYOUT
-/*******************************************/
+/* ------ additional styles ------ */
 header {
-
+     background: #777777;
+     color: white;
 }
-
+header, section {
+     padding: 30px;
+}
+header + section + section {
+     background: #cccccc;
+}
 footer {
-
+     background: #292f3f;
+     color: white;
 }
-
-/******************************************
-/* ADDITIONAL STYLES
-/*******************************************/
+footer * {
+     padding: 0;
+     text-align: left;
+}
+.btn {
+     border: 1px solid #555;
+     display: block;
+     height: 40px;
+     line-height: 40px;
+     margin: 10px auto;
+     text-decoration: none;
+     text-transform: uppercase;
+     width: 100px;
+}
