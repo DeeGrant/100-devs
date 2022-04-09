@@ -74,6 +74,13 @@ body > section > div {
 .hero > section {
      width: 50%;
 }
+body > section > h2 {
+     font-size: 3rem;
+     width: 50%;
+}
+body > section > p {
+     width: 50%;
+}
 .hero > section:first-child {
      padding: 6vw 20% 5vw 0;
 }
@@ -131,12 +138,10 @@ form > input {
      nav {
           text-align: center;
      }
-     main > section > section {
-          display: block;
-          float: none;
-          /*width: 100%;*/
-     }
-     .hero > section, .features > section {
+     .hero > section,
+     body > section > h2,
+     body > section > p,
+     .features > section {
           width: 100%;
      }
      .features > section {
