@@ -1,0 +1,49 @@
+/* ------ Box Model ------ */
+* {
+     box-sizing: border-box;
+}
+
+/* ------ Clearfix ------ */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+     clear: both;
+}
+
+/* ------ Base Styles ------ */
+body {
+     background: #500000;
+}
+body * {
+     height: 200px;
+}
+header, footer {
+     background: #555555;
+}
+.post-header, .pre-footer {
+     height: 100px;
+}
+.post-header {
+     background: linear-gradient(to bottom right, #555 50%, transparent calc(50% + 2px));
+}
+.pre-footer {
+     background: linear-gradient(to bottom right, transparent 50%, #555 calc(50% + 2px));
+}
+main {
+     height: 600px;
+}
+/*main {*/
+/*     height: 600px;*/
+/*     background:*/
+/*             linear-gradient(86deg, rgba(80, 0, 0, .7) 50%, transparent calc(50% + 2px)),*/
+/*             linear-gradient(183deg, rgba(80, 0, 0, .7) 50%, transparent calc(50% + 2px));*/
+/*}*/
+
+/* ------ Layout ------ */
