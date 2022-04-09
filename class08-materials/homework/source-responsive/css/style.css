@@ -51,6 +51,9 @@ nav > div {
      text-align: right;
      width: 20%;
 }
+#hamburger {
+     display: none;
+}
 main > section > section {
      float: left;
      padding-bottom: 3vw;
@@ -64,13 +67,6 @@ main > section, body > section {
 .hero > section + section {
      text-align: right;
 }
-body > section > h2 {
-     font-size: 3rem;
-     width: 50%;
-}
-body > section > p {
-     width: 50%;
-}
 body > section > div {
      background: #666;
      height: 300px;
@@ -80,9 +76,6 @@ body > section > div {
 }
 .hero > section:first-child {
      padding: 6vw 20% 5vw 0;
-}
-.hero > section:first-child span {
-     text-transform: uppercase;
 }
 .features > section {
      padding-right: 4%;
@@ -95,6 +88,9 @@ header, main {
 }
 h1 {
      font-size: 2.25rem;
+}
+.hero > section:first-child span {
+     text-transform: uppercase;
 }
 .features i {
      font-size: 2rem;
@@ -114,4 +110,44 @@ form > input {
      color: #f5f9fb;
      cursor: pointer;
      padding: .6rem 1.5rem;
+}
+
+/* ------ Mobile / Tablet ------ */
+@media screen and (max-width: 810px){
+     /* ------ Layout ------ */
+     header * {
+          float: none;
+     }
+     nav ul, nav .btn {
+          display: none;
+     }
+     #hamburger {
+          display: inline;
+     }
+     nav h3 {
+          display: inline-block;
+          width: 90%;
+     }
+     nav {
+          text-align: center;
+     }
+     main > section > section {
+          display: block;
+          float: none;
+          /*width: 100%;*/
+     }
+     .hero > section, .features > section {
+          width: 100%;
+     }
+     .features > section {
+          padding-bottom: 3rem;
+     }
+
+     /* ------ Form ------ */
+     form > input, #something {
+          display: block;
+          width: 100%;
+          margin-bottom: .6rem;
+     }
+
 }
