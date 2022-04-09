@@ -1,0 +1,40 @@
+/* ------ Box Model ------ */
+* {
+     box-sizing: border-box;
+}
+
+/* ------ Clearfix ------ */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+     clear: both;
+}
+
+/* ------ Base Styles ------ */
+body * {
+     height: 200px;
+}
+header, footer {
+     background: #555555;
+}
+main {
+     height: 1000px;
+     background:
+             linear-gradient(86deg, rgba(80, 0, 0, .7) 50%, transparent calc(50% + 2px)),
+             linear-gradient(183deg, rgba(80, 0, 0, .7) 50%, transparent calc(50% + 2px));
+}
+section {
+     background: #500000;
+     float: left;
+     width: 20%;
+     margin: 150px 15%;
+}
+
+/* ------ Layout ------ */
