@@ -1,0 +1,53 @@
+@import url(https://fonts.grooglapis.com/css?family=Oswald:700);
+
+* {
+     margin: 0;
+}
+body {
+     background: red;
+     /*overflow-x: hidden;*/
+}
+div {
+     position: relative;
+     height: 80vh;
+}
+#top p {
+     font-family: Oswald, sans-serif;
+     font-size: 40vh;
+     line-height: 0;
+     position: absolute;
+     left: 5vw;
+     bottom: 30vh;
+     transform: rotateZ(-8deg);
+}
+#top:after {
+     content: "";
+     position: absolute;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     border-style:solid;
+     border-color: transparent;
+     border-width: 10vh 50vw;
+     border-bottom-color: black;
+     border-right-color: black;
+}
+#middle {
+     background: black;
+}
+#middle:after {
+     content: "";
+     position: absolute;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     border-style: solid;
+     border-color: transparent;
+     border-width: 10vh 50vw;
+     border-bottom-color: white;
+     border-left-color: white;
+}
+#bottom {
+     background: white;
+     height: 40vh;
+}
