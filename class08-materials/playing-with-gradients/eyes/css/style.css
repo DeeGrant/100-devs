@@ -22,7 +22,10 @@ body * {
      height: 100px;
 }
 header, footer {
-     background: linear-gradient(to right, #fce3a7, #dcc190);
+     background: linear-gradient(to bottom, #fce3a7, #dcc190);
+}
+footer {
+     background: linear-gradient(to top, #fce3a7, #dcc190);
 }
 main {
      height: 27vw;
@@ -32,7 +35,10 @@ main {
           darkgoldenrod calc(5% + 2px),
           rgb(122, 73, 20) 14%,
           rgb(91, 40, 0) 20%,
-          transparent calc(20% + 2px),
+          white calc(20% + 2px),
+          #f5f3f3 25%,
+          #eee 30%,
+          transparent calc(40% + 2px),
           transparent),
      radial-gradient(circle at 75% 40%,
           black 0%,
@@ -40,7 +46,10 @@ main {
           darkgoldenrod calc(5% + 2px),
           rgb(122, 73, 20) 14%,
           rgb(91, 40, 0) 20%,
-          transparent calc(20% + 2px),
+          white calc(20% + 2px),
+          #f5f3f3 25%,
+          #eee 30%,
+          transparent calc(40% + 2px),
           transparent);
 }
 
