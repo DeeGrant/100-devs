@@ -1,0 +1,34 @@
+/* ------ Box Model ------ */
+* {
+     box-sizing: border-box;
+}
+
+/* ------ Clearfix ------ */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+     clear: both;
+}
+
+/* ------ Base Styles ------ */
+body * {
+     height: 100px;
+}
+header, footer {
+     background: #555555;
+}
+main {
+     height: 600px;
+     background:
+             repeating-linear-gradient(135deg, transparent 0, rgba(227, 129, 0, 0.25) 2px, rgba(227, 129, 0, 0.25) 10px, transparent 12px, transparent 20px),
+             repeating-linear-gradient(45deg, transparent 0, rgba(78, 125, 215, 0.25) 2px, rgba(78, 125, 215, 0.25) 10px, transparent 12px, transparent 20px);
+}
+
+/* ------ Layout ------ */

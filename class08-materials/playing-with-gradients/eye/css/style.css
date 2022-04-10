@@ -1,0 +1,38 @@
+/* ------ Box Model ------ */
+* {
+     box-sizing: border-box;
+}
+
+/* ------ Clearfix ------ */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+     clear: both;
+}
+
+/* ------ Base Styles ------ */
+body * {
+     height: 100px;
+}
+header, footer {
+     background: linear-gradient(to right, #444, #777);
+}
+main {
+     height: 600px;
+     background: radial-gradient(circle,
+          black 0%,
+          black 10%,
+          darkgoldenrod calc(10% + 2px),
+          rgb(91, 40, 0) 40%,
+          white calc(40% + 2px),
+          white 90%);
+}
+
+/* ------ Layout ------ */

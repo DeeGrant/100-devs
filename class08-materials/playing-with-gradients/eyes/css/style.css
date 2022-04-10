@@ -1,0 +1,47 @@
+/* ------ Box Model ------ */
+* {
+     box-sizing: border-box;
+}
+
+/* ------ Clearfix ------ */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+     clear: both;
+}
+
+/* ------ Base Styles ------ */
+body * {
+     height: 100px;
+}
+header, footer {
+     background: linear-gradient(to right, #fce3a7, #dcc190);
+}
+main {
+     height: 27vw;
+     background: radial-gradient(circle at 25% 40%,
+          black 0%,
+          black 5%,
+          darkgoldenrod calc(5% + 2px),
+          rgb(122, 73, 20) 14%,
+          rgb(91, 40, 0) 20%,
+          transparent calc(20% + 2px),
+          transparent),
+     radial-gradient(circle at 75% 40%,
+          black 0%,
+          black 5%,
+          darkgoldenrod calc(5% + 2px),
+          rgb(122, 73, 20) 14%,
+          rgb(91, 40, 0) 20%,
+          transparent calc(20% + 2px),
+          transparent);
+}
+
+/* ------ Layout ------ */
